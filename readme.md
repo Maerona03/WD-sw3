@@ -13,7 +13,7 @@
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  <p>This project offers a creative ideas and practical guide for designing an different looks of header and footer using HTML and CSS</p>Short Description. (Optional)
 </div>
 
 <br />
