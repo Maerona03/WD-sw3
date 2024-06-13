@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(
+    90deg,
+    #ac06a4 0%,
+    #d30d8b 40%,
+    #c94aa1 41%,
+    #dc60ab 93%
+  );
+
+  background: -moz-linear-gradient(
+    90deg,
+    #ac06a4 0%,
+    #d30d8b 40%,
+    #c94aa1 41%,
+    #dc60ab 93%
+  );
+
+  background: -webkit-linear-gradient(
+    90deg,
+    #ac06a4 0%,
+    #d30d8b 40%,
+    #c94aa1 41%,
+    #dc60ab 93%
+  );
+
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AB06A2", endColorstr="#D30D8B", GradientType=1 );
+
+  & > .panda {
+    width: 30%;
+    padding-bottom: 5%;
+
+    & img {
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+
+  & > .content {
+    width: 70%;
+    padding: 5rem;
+
+    & > h3.subtitle {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+      letter-spacing: clamp(.3rem, 1rem, 1.3rem);
+      font-weight: 500;
+      color: black;
+    }
+
+    & > h1.title {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+      color: #ffb300;
+    }
+
+    & > p.description {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+    }
+
+    & > nav {
+      display: flex;
+      gap: 1.5rem;
+
+      & > a {
+        border: white 1px solid;
+        border-radius: 20px;
+        padding: 0.6rem 1.5rem;
+        text-decoration: none;
+        color: white;
+        font-weight: 00;
+
+        &.upper {
+          background: linear-gradient(
+            100deg,
+            #fff0f6 0%,
+            #e977ac 0%,
+            #ffb300 45%,
+            #d553aa 100%
+          );
+          background: -moz-linear-gradient(
+            100deg,
+            #fff0f6 0%,
+            #e977ac 0%,
+            #ffb300 45%,
+            #d553aa 100%
+          );
+          background: -webkit-linear-gradient(
+            100deg,
+            #fff0f6 0%,
+            #e977ac 0%,
+            #ffb300 45%,
+            #d553aa 100%
+          );
+
+          filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C3195D", endColorstr="#E978AD", GradientType=1 );
+        }
+      
+
+      &.down {
+        background: linear-gradient(
+          100deg,
+          #fff0f6 0%,
+          #e977ac 0%,
+          #ffb300 45%,
+          #d553aa 100%
+        );
+        background: -moz-linear-gradient(
+          100deg,
+          #fff0f6 0%,
+          #e977ac 0%,
+          #ffb300 45%,
+          #d553aa 100%
+        );
+        background: -webkit-linear-gradient(
+          100deg,
+          #fff0f6 0%,
+          #e977ac 0%,
+          #ffb300 45%,
+          #d553aa 100%
+        );
+
+        filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C3195D", endColorstr="#E978AD", GradientType=1 );
+      }
+    }
+  }
+}
