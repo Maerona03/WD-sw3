@@ -8,58 +8,39 @@
   font-family: "Poppins", sans-serif;
 }
 
+
 .container {
   display: flex;
+  flex-direction: row-reverse;
   align-items: center;
   justify-items: center;
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(
-    90deg,
-    #ac06a4 0%,
-    #d30d8b 40%,
-    #c94aa1 41%,
-    #dc60ab 93%
-  );
-
-  background: -moz-linear-gradient(
-    90deg,
-    #ac06a4 0%,
-    #d30d8b 40%,
-    #c94aa1 41%,
-    #dc60ab 93%
-  );
-
-  background: -webkit-linear-gradient(
-    90deg,
-    #ac06a4 0%,
-    #d30d8b 40%,
-    #c94aa1 41%,
-    #dc60ab 93%
-  );
-
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#AB06A2", endColorstr="#D30D8B", GradientType=1 );
+ 
 
   & > .panda {
-    width: 30%;
-    padding-bottom: 5%;
+    width: 40%;
+    padding-bottom: 2%;
+    padding-right: 5%;
+    
 
     & img {
       width: 100%;
       object-fit: cover;
+      padding-right: 20%;
     }
   }
 
   & > .content {
-    width: 70%;
-    padding: 5rem;
+    width: 50%;
+    padding: 2rem;
 
     & > h3.subtitle {
       font-size: 1.5rem;
       margin-bottom: 1rem;
       letter-spacing: clamp(.3rem, 1rem, 1.3rem);
       font-weight: 500;
-      color: black;
+      
     }
 
     & > h1.title {
@@ -83,7 +64,10 @@
         padding: 0.6rem 1.5rem;
         text-decoration: none;
         color: white;
-        font-weight: 00;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out; 
+        display: inline-block;
+}
 
         &.upper {
           background: linear-gradient(
@@ -138,5 +122,26 @@
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#C3195D", endColorstr="#E978AD", GradientType=1 );
       }
     }
+    nav a:hover {
+      transform: scale(1.05); /* Scale up slightly on hover */
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+    }
+    
+    .upper:hover {
+      background: linear-gradient(
+        100deg,
+        #ffb300 0%,
+        #d553aa 100%
+      );
+    }
+    
+    .down:hover {
+      background: linear-gradient(
+        100deg,
+        #ffb300 0%,
+        #d553aa 100%
+      );
+    }
   }
 }
+-
