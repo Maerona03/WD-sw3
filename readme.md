@@ -118,7 +118,7 @@ WD-Seatwork 3
 
 ## Resources
 
-| Title     | Purpose Link                                                          |
+| Title     | Purpose Link                                                          |                                                   |
 | --------- | --------------------------------------------------------------------- | ------------------------------------------------- |
 | ICONS     | Applying icons for editing in CSS.                                    | https://fontawesome.com/search?q=face&o=r         |
 | Youtube   | Getting ideas and tutorial for using animation and effect for header. | https://youtu.be/egQkSOFZNbQ?si=PgDtxct7o0w9la90  |
