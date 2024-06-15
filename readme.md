@@ -103,7 +103,17 @@ WD-Seatwork 3
 |   └─ js
 |       └─ script.js
 └─ pages
-|  └─ pageName
+|  └─ Header-gallery
+|     └─ assets
+|     |  └─ css
+|     |  |  └─ style.css
+|     |  └─ img
+|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png/.gif
+|     |  └─ js
+|     |     └─ script.js
+|     └─ index.html
+|   pages
+|  └─ Footer-gallery
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
