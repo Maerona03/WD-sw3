@@ -69,17 +69,16 @@ Guiding Question:
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
 
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+- Header Animation
+- Hover Effect
+- Footer Animation
+- Hover Effect
 
 ### Technology
 
-<!-- TODO: List of Technology Used -->
-
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
 
 ## Rules, Practices and Principles
 
@@ -112,23 +111,16 @@ WD-Seatwork 3
 |     |  └─ js
 |     |     └─ script.js
 |     └─ index.html
-|   pages
-|  └─ Footer-gallery
-|     └─ assets
-|     |  └─ css
-|     |  |  └─ style.css
-|     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
-|     |  └─ js
-|     |     └─ script.js
-|     └─ index.html
+|
 └─ index.html
 └─ readme.md
 ```
 
 ## Resources
 
-| Title | Purpose | Link |
-| ------------ | ----------------------------------------------------------------------------- | -----------------------------------------------||
-|ICONS | Applying icons for editing in CSS. |https://fontawesome.com/search?q=face&o=r |
-|Youtube | Getting ideas and tutorial for using animation and effect for header. |https://youtu.be/egQkSOFZNbQ?si=PgDtxct7o0w9la90 |
+| Title     | Purpose Link                                                          |
+| --------- | --------------------------------------------------------------------- | ------------------------------------------------- |
+| ICONS     | Applying icons for editing in CSS.                                    | https://fontawesome.com/search?q=face&o=r         |
+| Youtube   | Getting ideas and tutorial for using animation and effect for header. | https://youtu.be/egQkSOFZNbQ?si=PgDtxct7o0w9la90  |
+| Github    | Get some ideas and the flow of format.                                | https://github.com/zyx-0314/WD-Seatwork-3         |
+| w3schools | Get some ideas and the flow of format.                                | https://www.w3schools.com/css/css3_animations.asp |
